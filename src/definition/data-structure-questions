@@ -1,0 +1,93 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+Ans: we need data structure to be efficient in terms of time and memory when processing
+     large data and solving complex math problem
+
+List out the areas in which data structures are applied extensively?
+Ans: Array, ArrayList, LinkedList, Stack, Queue, Tree, HashMap, HasTable, Graph and many more.
+
+what is an Array?
+Ans: An array is a container object that holds a fixed number of values of a single type.
+
+what is the difference between the Array and ArrayList?
+Ans: Array is fixed, same type data, hard to use in real time database work.
+     ArrayList is dynamic, Grow-able, memory and time saving.
+
+what is LinkedList?
+Ans: A linked list is a linear dynamic data structure where each element is a separate object
+     and that can grow and shrink during it’s execution time.
+
+what is queue?
+Ans: A queue is a container of objects (a linear collection) where data are inserted and removed using the principle FIFO.
+
+what is stack?
+Ans: A stack is a container of objects where data are inserted and removed using the principle LIFO.
+
+what is FIFO and LIFO?
+Ans: First-in & First-out (FIFO)
+     Last-in & First-out (LIFO)
+
+what is the order of complexity?
+Ans: Order of complexity measures how many steps it takes to complete a problem in certain way in data structure
+
+what is the best case to search an element from an array?
+Ans: The best case is when the case is present in the first location searched
+
+what is the worst case to search an element from an array?
+Ans: The worst case is when searched case is not present in the data set
+
+what is tree in data structure?
+Ans: A tree is a data structure consisting of nodes organized as a hierarchy
+
+what is graph in data structure?
+Ans: A graph is an array comprised of a set of vertices and a set of edges
+
+what is the difference between the HashTable and HashMap?
+Ans: HashMap is non synchronized and not thread safe.On the other hand, HashTable is thread safe and synchronized
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans: RDBMS - Array,
+     Network data model - Graph
+     and Hierarchical data model - Trees
+
+How HashMap works in java?
+Ans: HashMap works on the principle of hashing
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Ans: ArrayIndexOutOfBoundsException is an exception that causes the program crash. If we call an array index that is not
+created yet at that time ArrayIndexOutOfBoundsException happens.
+
+What are the different ways of copying an array into another array?
+Ans: Using addAll, int[] newArray= new int[oldArray1+oldArray2];
+
+What is difference between an array and a linked list?
+Ans: ArrayList internally uses dynamic array to store the elements.
+     LinkedList internally uses doubly linked list to store the elements.
+
+     Manipulation with ArrayList is slow because it internally uses array. If any element is removed from the array, all the bits are shifted in memory.
+     Manipulation with LinkedList is faster than ArrayList because it uses doubly linked list so no bit shifting is required in memory.
+
+     ArrayList class can act as a list only because it implements List only.
+     LinkedList class can act as a list and queue both because it implements List and Deque interfaces.
+
+     ArrayList is better for storing and accessing data. LinkedList is better for manipulating data.
+
+What is DFS and BFS?
+Ans: DFS (Depth First Search) and BFS (Breadth First Search) are search algorithms used for graphs and trees.
+
+What is Recursion?
+Ans: Recursion is a basic programming technique, in which a method calls itself to solve some problem. A method that uses
+     this technique is recursive.
+
+What is Big-(O)-notation?
+Ans: Big O notation is used to describe the performance of an algorithm
+
+Outlined different kind of sorting algorithm with time complexity?
+Ans: Merged sort is better at dealing with large data compared to insertion sort
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  b)In terms of Inserting element.
+  c)In terms of Searching element.
+  d)In terms of Removing element.
